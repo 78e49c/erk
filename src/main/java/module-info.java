@@ -8,4 +8,6 @@ module com.example.kizilirmak {
 
     opens com.example.erk to javafx.fxml;
     exports com.example.erk;
+    exports game;
+    opens game to javafx.fxml;
 }
