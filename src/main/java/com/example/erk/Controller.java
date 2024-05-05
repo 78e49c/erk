@@ -1,5 +1,6 @@
 package com.example.erk;
 
+import game.Game;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,19 +17,18 @@ public class Controller {
 
     @FXML
     public Label dayText;
+    public Label label_rest;
+    public Label label_satiation;
+    public Label label_water;
+    public Label label_emptied;
+    public Label label_sleep;
+    public Label label_suitable_temperature;
+    public Label label_health;
+    public Label label_satisfaction;
     @FXML
     private Label hourText;
     @FXML
     private Button button_continue;
-
-    
-    
-    
-    
-    @FXML
-    protected void onHelloButtonClick() {
-        //timeText.setText("Welcome to JavaFX Application!");
-    }
 
     @FXML
     protected void onContinueButtonClick()
@@ -40,5 +40,4 @@ public class Controller {
     }
 
 
-   // tokluk gereci
 }
